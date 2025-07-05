@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GlowCap™ – Gorras LED Inteligentes</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0b0c10;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.8em;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1.2em;
+      color: #a0d2eb;
+    }
+
+    .hero-img {
+      max-width: 100%;
+      height: auto;
+      margin-top: 20px;
+      border-radius: 10px;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+
+    .features div {
+      background: #1f2833;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .features h3 {
+      color: #66fcf1;
+    }
+
+    .testimonials {
+      background: #0b0c10;
+      border-left: 5px solid #45a29e;
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 10px;
+    }
+
+    .cta {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .buy-btn {
+      background-color: #66fcf1;
+      color: #0b0c10;
+      border: none;
+      padding: 15px 30px;
+      font-size: 1.2em;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .buy-btn:hover {
+      background-color: #45a29e;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 10px;
+      background: #1f2833;
+      color: #c5c6c7;
+    }
+
+    @media (max-width: 768px) {
+      .features {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>GlowCap™</h1>
+  <p>La gorra LED inteligente que reacciona a la música 🎧 y brilla en la oscuridad.</p>
+  <img src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c" alt="GlowCap gorra LED" class="hero-img">
+</header>
+
+<section>
+  <h2 style="text-align:center;">¿Por qué GlowCap™ es viral?</h2>
+  <div class="features">
+    <div>
+      <h3>🎵 Audio-Reactivo</h3>
+      <p>Se ilumina al ritmo de la música. ¡Ideal para fiestas y TikTok!</p>
+    </div>
+    <div>
+      <h3>💡 7 Colores</h3>
+      <p>Cambia de color fácilmente con un botón.</p>
+    </div>
+    <div>
+      <h3>🔋 USB Recargable</h3>
+      <p>Sin pilas. Recárgala como tu celular.</p>
+    </div>
+    <div>
+      <h3>🧢 Estilo Unisex</h3>
+      <p>Diseño ajustable para cualquier edad o género.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2 style="text-align:center;">Lo que dicen nuestros clientes</h2>
+  <div class="testimonials">
+    <p><strong>María G. 🇲🇽</strong>: “¡Me la llevé al EDC México y TODO el mundo me preguntaba dónde la compré!”</p>
+  </div>
+  <div class="testimonials">
+    <p><strong>Julián R. 🇨🇴</strong>: “Perfecta para mis videos en Instagram, se ve brutal en la oscuridad.”</p>
+  </div>
+</section>
+
+<section class="cta">
+  <h2>Precio de lanzamiento: <span style="color:#66fcf1;">$19.99 USD</span></h2>
+  <p>¡Solo por tiempo limitado!</p>
+  
+  <!-- Simulación de botón de pago -->
+  <button class="buy-btn" onclick="comprar()">Comprar ahora</button>
+</section>
+
+<footer>
+  <p>© 2025 GlowCap™. Todos los derechos reservados.</p>
+</footer>
+
+<script>
+  function comprar() {
+    alert("Redirigiendo a PayPal...");
+    window.location.href = "https://www.paypal.com/buy?token=GLOWCAP";
+    // Puedes sustituir este enlace por tu enlace real de pago
+  }
+</script>
+
+</body>
+</html>
